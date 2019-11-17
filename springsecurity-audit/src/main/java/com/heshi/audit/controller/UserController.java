@@ -12,7 +12,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/{id}")
-    public UserDo saveUser(@PathVariable Long id) {
+    public UserDo getUser(@PathVariable Long id) {
         return userService.get(id);
     }
 
