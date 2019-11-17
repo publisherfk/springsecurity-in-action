@@ -1,4 +1,4 @@
-#几种RequestMethod的实例及说明
+# 几种RequestMethod的实例及说明
 &emsp;&emsp;翻看RequestMethod的源码，我们会发现RequestMethod有八种请求方式。以往的开发中，我们基本上只会用到两种请求方式，put和post。现在使用spring5之后，使用另外几种请求方式会方便很多，按照实际需求，选择合适的method会让我们的接口看起来更规范。
  
 ```
