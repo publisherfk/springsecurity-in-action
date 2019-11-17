@@ -19,6 +19,8 @@ public class UserDo implements Serializable {
     private String password;
     @Column(name = "VALID", nullable = false)
     private Boolean valid;
+    @Column(name = "PERMISSION")
+    private String permission;
 
     public Long getId() {
         return id;
@@ -50,5 +52,13 @@ public class UserDo implements Serializable {
 
     public void setValid(Boolean valid) {
         this.valid = valid;
+    }
+
+    public String getPermission() {
+        return permission;
+    }
+
+    public void setPermission(String permission) {
+        this.permission = permission;
     }
 }
