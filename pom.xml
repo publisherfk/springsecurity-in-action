@@ -11,6 +11,7 @@
     <modules>
         <module>springsecurity-audit</module>
         <module>springsecurity-acl</module>
+        <module>springsecurity-customlogin</module>
     </modules>
 
     <properties>
