@@ -11,9 +11,9 @@ import java.util.Date;
 @Table(name = AuditLog.TABLE_NAME)
 @EntityListeners(AuditingEntityListener.class)
 public class AuditLog {
-    public static final String TABLE_NAME = "BASE_AUDIT_LOG";
+    public static final String TABLE_NAME = "BASE_AUDIT_LOG02";
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     @Column(name = "REQUEST_METHOD")
     private String requestMethod;// 请求方式

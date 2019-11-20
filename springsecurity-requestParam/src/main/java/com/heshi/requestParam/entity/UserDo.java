@@ -1,4 +1,4 @@
-package com.heshi.audit.entity;
+package com.heshi.requestParam.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -60,5 +60,16 @@ public class UserDo implements Serializable {
 
     public void setPermission(String permission) {
         this.permission = permission;
+    }
+
+    @Override
+    public String toString() {
+        return "UserDo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", valid=" + valid +
+                ", permission='" + permission + '\'' +
+                '}';
     }
 }

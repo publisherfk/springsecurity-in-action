@@ -12,6 +12,8 @@
         <module>springsecurity-audit</module>
         <module>springsecurity-acl</module>
         <module>springsecurity-customlogin</module>
+        <module>springsecurity-bean</module>
+        <module>springsecurity-requestParam</module>
     </modules>
 
     <properties>
