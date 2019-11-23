@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.SessionAttribute;
  * @author by fukun
  */
 @RestController
-@RequestMapping("/restBase")
+@RequestMapping("/public/restBase")
 public class SessionAttributeRestController {
     Logger logger = LoggerFactory.getLogger(SessionAttributeRestController.class);
 
