@@ -17,6 +17,8 @@
         <module>springsecurity-oauth2Client</module>
         <module>springsecurity-reactive</module>
         <module>springsecurity-webflux</module>
+        <module>springsecurity-config</module>
+        <module>springsecurity-mc</module>
     </modules>
 
     <properties>
