@@ -14,7 +14,7 @@ public class CustomLoginConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/oauth/login", "/oauth/loginCheck", "/oauth/logout", "/css/**")
+                .antMatchers("/oauth/login", "/oauth/loginCheck", "/oauth/logout", "/css/**", "/code/image")
                 .permitAll().anyRequest().authenticated().and().formLogin().loginPage("/oauth/login")
                 .loginProcessingUrl("/oauth/loginCheck").and().logout().logoutUrl("/oauth/logout").logoutSuccessUrl("/oauth/login").invalidateHttpSession(true).and().csrf().disable();
     }

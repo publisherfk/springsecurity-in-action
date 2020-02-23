@@ -21,6 +21,12 @@
                     type="password" id="password" name="password" class="form-control"
                     placeholder="密码" required>
         </p>
+        <p>
+            <label for="imageCode" class="sr-only">验证码</label>
+            <input type="text" id="imageCode" name="imageCode" class="form-control"
+                    placeholder="验证码" required>
+            <image src="/code/image">
+        </p>
         <input name="_csrf" type="hidden"
                value="fdac8be9-412f-4963-ad24-08902a2a3c64"/>
         <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
