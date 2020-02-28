@@ -19,6 +19,7 @@
         <module>springsecurity-webflux</module>
         <module>springsecurity-config</module>
         <module>springsecurity-mc</module>
+        <module>springsecurity-oauth2Server</module>
     </modules>
 
     <properties>
