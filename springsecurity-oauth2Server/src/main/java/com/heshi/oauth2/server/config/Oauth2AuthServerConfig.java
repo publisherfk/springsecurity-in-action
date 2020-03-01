@@ -25,7 +25,7 @@ public class Oauth2AuthServerConfig extends AuthorizationServerConfigurerAdapter
                 .secret(passwordEncoder.encode("123456"))
                 .scopes("read", "write")
                 .accessTokenValiditySeconds(3600)
-                .resourceIds("order-server")
+                .resourceIds("order-server", "order-server2")
                 .authorizedGrantTypes("password")
                 .and()
                 .withClient("orderService")
